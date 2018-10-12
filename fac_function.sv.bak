@@ -1,0 +1,6 @@
+function int factorial (input int m,n);
+	int tmp = 1;
+	for(int i =1; i< m+n+1; i++)
+		tmp *= i;
+	return tmp;
+endfunction
